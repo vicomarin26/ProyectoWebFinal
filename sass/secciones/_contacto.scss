@@ -1,0 +1,51 @@
+.p--form {
+    font-size: 14px;
+    color: #ffffff;
+    background-image: url(/images/img/imagen_form.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.margin--form {
+    margin: 0 0 0 50px;
+}
+
+.encabezado--footer h1 {
+    color: rgba(116, 216, 66, 0.712);
+}
+
+.encabezado--footer h3 {
+    color: rgba(103, 215, 43, 0.889);
+}
+
+.margin--form {
+    margin-left: 300px;
+}
+
+.button--aceptar {
+    background-color: #ab4493;
+    border-color: #ab4493;
+}
+
+.button--canceld {
+    background-color: #a01111;
+    border-color: #a01111;
+}
+
+@media screen and (max-width: 990px) {
+    .margin--form {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .margin--form {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .margin--form {
+        margin-left: 20px;
+    }
+}

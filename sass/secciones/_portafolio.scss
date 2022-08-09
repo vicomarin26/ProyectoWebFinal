@@ -1,0 +1,22 @@
+.contenedor--port {
+    width: 100%;
+    background: rgba(9, 9, 9, 0.818);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor--port img {
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    bottom: 2px solid rgba(9, 9, 9, 0.818);
+    box-shadow: 0 0 0 2px white;
+    flex: auto;
+}
+
+.contenedor--port:hover img {
+    filter: blur(1px);
+    transform: scale(.800);
+    transition: 10s;
+}
